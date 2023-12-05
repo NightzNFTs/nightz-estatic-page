@@ -1,8 +1,13 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import  Header  from '../components/Header.js'
+import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
+const adriana = localFont({
+  src: './adriana.woff2',
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,11 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={adriana.className}>
         <div className='container mx-auto'>
-          <Header />
+          
           {children}
-
         </div>
       </body>
     </html>

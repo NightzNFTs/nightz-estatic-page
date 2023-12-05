@@ -17,6 +17,19 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  
+  background-image: url(../../public/background.png);
+  background-repeat: no-repeat;
+  /* background-size:contain; */
+}
+
+@media (width >= 720px) {
+  body{
+    background-size: 100%;
+  }
+}
+@media (width <= 720px) {
+  body{
+    background-image: url(../../public/backgroundMovile.png);
+    background-size: 100%;
+  }
 }
