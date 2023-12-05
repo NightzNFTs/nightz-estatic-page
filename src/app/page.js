@@ -3,18 +3,18 @@ import Links from "../components/sections/links"
 
 export default function Home() {
   return (
-    <main className="flex  flex-col  h-screen justify-between p-20 ">
+    <main className="flex  flex-col  h-screen justify-between items-start xl:p-20 p-4">
       <div>
-        <h1 className="flex  xl:text-9xl text-6xl text-white" style={{
+        <h1 className="flex xl:text-[200px] text-7xl text-white" style={{
           textShadow:
             "8px 0 #003878, -8px 0 #003878, 0 8px #003878, 0 -8px #003878, 8px 8px #003878, -8px -8px #003878, 8px -8px #003878, -8px 8px #003878",
           }}>COMING
         </h1>
-        <h1 className="flex  xl:text-9xl text-6xl text-white" style={{
+        <h1 className="flex xl:text-[200px] text-7xl text-white" style={{
           textShadow:
             "8px 0 #003878, -8px 0 #003878, 0 8px #003878, 0 -8px #003878, 8px 8px #003878, -8px -8px #003878, 8px -8px #003878, -8px 8px #003878",
         }}>
-          SOON
+          SOON!
         </h1>
 
       </div>

@@ -18,8 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={adriana.className}>
-        <div className='container mx-auto'>
-          
+        <div className=''>
           {children}
         </div>
       </body>
