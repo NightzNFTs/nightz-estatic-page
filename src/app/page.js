@@ -3,29 +3,25 @@ import Links from "../components/sections/links"
 
 export default function Home() {
   return (
-    <main className="flex  flex-col  h-screen justify-between items-start xl:p-20 p-4">
+    <main className="flex  flex-col h-screen justify-between items-start xl:pl-20  p-4 relative">
       <div>
-        <h1 className="flex xl:text-[200px] text-7xl text-white" style={{
-          textShadow:
-            "8px 0 #003878, -8px 0 #003878, 0 8px #003878, 0 -8px #003878, 8px 8px #003878, -8px -8px #003878, 8px -8px #003878, -8px 8px #003878",
-          }}>COMING
+        <h1 className="flex xl:text-[200px] text-7xl text-white titulo" >COMING
         </h1>
-        <h1 className="flex xl:text-[200px] text-7xl text-white" style={{
-          textShadow:
-            "8px 0 #003878, -8px 0 #003878, 0 8px #003878, 0 -8px #003878, 8px 8px #003878, -8px -8px #003878, 8px -8px #003878, -8px 8px #003878",
-        }}>
+        <h1 className="flex xl:text-[200px] text-7xl text-white titulo" >
           SOON!
         </h1>
 
       </div>
-      <a href="https://www.x.com" target="_blank" className=''>
-        <Image
-          src="/followButton.png"
-          width={500}
-          height={500}
-          alt="Picture of the author"
-        />
-      </a>
+      <div className=''>
+        <a href="https://www.x.com" target="_blank" className='fixed bottom-0 left-[-70px] ml-[-10] mb-10  '>
+          <Image
+            src="/follow.png"
+            width={700}
+            height={500}
+            alt="Picture of the author"
+          />
+        </a>
+      </div>
       
     </main>
   )

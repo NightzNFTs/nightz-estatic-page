@@ -33,3 +33,18 @@ body {
     background-size: 100%;
   }
 }
+
+@media (min-width: 720px) {
+  .titulo {
+    font-size: 200px;
+    text-shadow: 8px 0 #003878, -8px 0 #003878, 0 8px #003878, 0 -8px #003878, 8px 8px #003878, -8px -8px #003878, 8px -8px #003878, -8px 8px #003878;
+  }
+}
+
+/* Estilos para pantallas más pequeñas que 720px */
+@media (max-width: 719px) {
+  .titulo {
+    /* font-size: 7xl; */
+    text-shadow: 4px 0 #003878, -4px 0 #003878, 0 4px #003878, 0 -4px #003878, 4px 4px #003878, -4px -4px #003878, 4px -4px #003878, -4px 4px #003878;
+  }
+}
