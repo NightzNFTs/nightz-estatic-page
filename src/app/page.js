@@ -15,7 +15,7 @@ export default function Home() {
         target="_blank"
         className="fixed bottom-14 -right-12 md:-left-16"
       >
-        <div className="w-[400px] md:w-[700px]">
+        <div className="w-full pl-8 md:pl-0 md:w-[700px]">
           <Image
             priority
             src="/follow.png"
