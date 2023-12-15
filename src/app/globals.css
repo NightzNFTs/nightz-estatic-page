@@ -17,14 +17,14 @@
 }
 
 body {
-  background-image: url(../../public/background.png);
+  background-image: url(../../public/background.avif);
   background-repeat: no-repeat;
-  /* background-size:contain; */
+  background-size: cover;
 }
 
 @media (width >= 720px) {
   body{
-    background-size: 100%;
+    background-size:cover;
   }
 }
 @media (width <= 720px) {
