@@ -13,7 +13,7 @@ export default function Home() {
       <Link
         href="https://twitter.com/NightzNFTs"
         target="_blank"
-        className="fixed bottom-0 left-[-70px] ml-[-10] mb-10"
+        className="absolute -bottom-5 left-[-70px] ml-[-10] mb-10 pr-10"
       >
         <Image
           priority
