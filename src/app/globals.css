@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -17,20 +17,20 @@
 }
 
 body {
-  /* background-image: url(../../public/background.avif);
+  background-image: url(../../public/background.avif);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 @media (width >= 720px) {
   body{
-    /* background-size:cover; */
+    background-size:cover;
   }
 }
 @media (width <= 720px) {
   body{
-    /* background-image: url(../../public/backgroundMovile.png);
-    background-size: 100%; */
+    background-image: url(../../public/backgroundMovile.png);
+    background-size: 100%;
   }
 }
 
@@ -41,10 +41,9 @@ body {
   }
 }
 
-/* Estilos para pantallas más pequeñas que 720px */
 @media (max-width: 719px) {
   .titulo {
-    /* font-size: 7xl; */
+    font-size: 7xl;
     text-shadow: 4px 0 #003878, -4px 0 #003878, 0 4px #003878, 0 -4px #003878, 4px 4px #003878, -4px -4px #003878, 4px -4px #003878, -4px 4px #003878;
   }
-}
+} */
