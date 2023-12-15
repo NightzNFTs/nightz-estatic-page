@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${adriana.className} relative`}>
-        <div className="bg-[url('/backgroundMovile.png')] min-[720px]:bg-[url('/background.avif')] w-full h-full bg-cover bg-center bg-no-repeat -z-20 absolute top-0"></div>
+        <div className="bg-[url('/bg-mobile.avif')] md:bg-[url('/background.avif')] w-full h-full bg-cover bg-bottom bg-no-repeat -z-20 absolute top-0"></div>
         <main className="min-h-screen">{children}</main>
       </body>
     </html>

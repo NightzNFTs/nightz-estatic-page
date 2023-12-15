@@ -13,15 +13,18 @@ export default function Home() {
       <Link
         href="https://twitter.com/NightzNFTs"
         target="_blank"
-        className="absolute -bottom-5 left-[-70px] ml-[-10] mb-10 pr-10"
+        className="fixed bottom-14 -right-12 md:-left-16"
       >
-        <Image
-          priority
-          src="/follow.png"
-          width={700}
-          height={500}
-          alt="Picture of the author"
-        />
+        <div className="w-[400px] md:w-[700px]">
+          <Image
+            priority
+            src="/follow.png"
+            width={900}
+            height={900}
+            alt="Picture of the author"
+            className="w-full h-full"
+          />
+        </div>
       </Link>
     </section>
   );
