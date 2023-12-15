@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={adriana.className}>
+      <div className="bg-[url('/backgroundMovile.png')] min-[940px]:bg-[url('/background.avif')] w-full h-full bg-cover bg-start bg-no-repeat -z-20 absolute top-0"></div>
         <div className=''>
           {children}
         </div>

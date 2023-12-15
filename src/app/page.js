@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
 
       </div>
-      {/* <div className="bg-[url('/background.avif')] [720px]:bg-[url('/backgroundMovile.png')] w-full h-full bg-cover bg-start bg-no-repeat -z-20 absolute top-0"></div> */}
+      
       <div className=''>
         <a href="https://twitter.com/NightzNFTs" target="_blank" className='fixed bottom-0 left-[-70px] ml-[-10] mb-10  '>
           <Image

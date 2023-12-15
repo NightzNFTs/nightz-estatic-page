@@ -17,20 +17,20 @@
 }
 
 body {
-  background-image: url(../../public/background.avif);
+  /* background-image: url(../../public/background.avif);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 @media (width >= 720px) {
   body{
-    background-size:cover;
+    /* background-size:cover; */
   }
 }
 @media (width <= 720px) {
   body{
-    background-image: url(../../public/backgroundMovile.png);
-    background-size: 100%;
+    /* background-image: url(../../public/backgroundMovile.png);
+    background-size: 100%; */
   }
 }
 
